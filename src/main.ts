@@ -52,6 +52,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </ul>
   </div>
 </section>
+<footer style="text-align:center; margin-top:1.5rem; color:var(--muted); font-size:0.85rem;">Dibuat untuk Tugas Pertemuan 6 - Pengembangan Aplikasi Web</footer>
 
 <div class="ticks"></div>
 <section id="spacer"></section>
