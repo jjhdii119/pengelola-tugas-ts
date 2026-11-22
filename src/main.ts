@@ -127,13 +127,13 @@ function renderApp(): void {
                 <div class="task-item ${tugas.status === 'Selesai' ? 'done' : ''}">
                   <div>
                     <h3>
-                      ${tugas.prioritasTinggi ? '🔥 ' : ''}${tugas.judul}
+                      ${tugas.prioritasTinggi ? ' ' : ''}${tugas.judul}
                       <span class="status-pill ${
                         tugas.status === 'Selesai' ? 'status-done' : 'status-pending'
                       }">${tugas.status}</span>
                     </h3>
                     <div class="task-meta">
-                      📚 ${tugas.mataKuliah} &nbsp;|&nbsp; 📅 Deadline: ${tugas.deadline}
+                        ${tugas.mataKuliah} &nbsp;|&nbsp;   Deadline: ${tugas.deadline}
                     </div>
                   </div>
                   <div class="task-actions">
