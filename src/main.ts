@@ -52,6 +52,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </ul>
   </div>
 </section>
+<footer style="text-align:center; margin-top:1.5rem; color:var(--primary); font-size:0.85rem;">© 2026 Afdhal Jihadi - Praktikum PAW</footer>
 
 <div class="ticks"></div>
 <section id="spacer"></section>
